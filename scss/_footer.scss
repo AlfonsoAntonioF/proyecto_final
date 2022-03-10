@@ -1,0 +1,124 @@
+/*-------------------------------------------------------pie de pagina--------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+footer{
+  width: 100%;
+  position: static;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top , $rojoobscuro, $rjoclaro );
+  .content{
+    
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    p{
+      text-align: justify; 
+    }
+    p,a{
+        color: #fff;
+      }
+    .box{
+      width: 33%;
+      transition: all 0.4s ease;
+    }
+    .topic{
+      font-size: 22px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 16px;
+    
+    }
+    .lower{
+      .topic{
+        margin: 24px 0 5px 0;
+
+      }
+      i{
+        adding-right: 16px;
+      }
+    }
+    .middle{
+      padding-left: 80px;
+      a{
+        line-height: 32px;
+      }
+    }
+    .right{
+      input[type="text"]{
+        height: 45px;
+        width: 100%;
+        outline: none;
+        color: #d9d9d9;
+        background: #000;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-size: 17px;
+        border: 2px solid #222222;
+
+
+      }
+      input[type="submit"]{
+        height: 42px;
+        width: 100%;
+        font-size: 18px;
+        color: #d9d9d9;
+        background: #eb2f06;
+        outline: none;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        margin-top: 12px;
+        border: 2px solid $rojoobscuro;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+          background: none;
+          color:  #eb2f06;
+        }
+      }
+
+    }
+    .media-icons{ 
+      a{
+        font-size: 16px;
+        height: 45px;
+        width: 45px;
+        display: inline-block;
+        text-align: center;
+        line-height: 43px;
+        border-radius: 5px;
+        border: 2px solid #222222;
+        margin: 30px 5px 0 0;
+        transition: all 0.3s ease;
+        &:hover{
+          border-color: $rjoclaro;
+        }
+  
+      }
+  }
+
+
+  }
+  .bottom{
+    width: 100%;
+    text-align: right;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+    a{
+      color: #fefefe;
+    }
+  
+  }
+  p{
+    color: $rjoclaro;
+  }
+  a{
+    transition: all 0.3s ease;
+    &:hover{
+      color: $rjoclaro;
+    }
+  }
+}

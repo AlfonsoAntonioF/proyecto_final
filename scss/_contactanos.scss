@@ -1,0 +1,149 @@
+/**************  CONTACTANOS  ************/
+
+
+.caratulaNosotros{
+ img{
+   
+   height: 50vw;
+ }
+}
+
+@import url( 'https://fonts.googleapis.com/css?family=Roboto');
+.containerContactus{
+    width: 50%;
+    margin: 3px;
+}
+
+.contact_form{  
+  width: auto; 
+  height: auto;
+  margin: 70px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 30px;  
+  background-color: #e9d8d8; 
+  padding-left: 30px; 
+}
+
+.formulario{
+  width: 550px;
+}
+
+input{
+  background-color: #fbfbfb; 
+  width: 460px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4444; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 460px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4444; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #660404; 
+  border-color: #ab4444; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+  p{
+    color: #fff; 
+  }
+}
+
+span{
+  color: #4d0404; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #ab4444;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #a00b0b;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #9c0c0c;
+}
+
+.imgCotizacion img{
+  align-content: center;
+  margin-top: 4rem;
+  width: 40%;
+
+}
+
+
+
+
+

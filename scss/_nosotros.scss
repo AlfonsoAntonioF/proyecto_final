@@ -1,0 +1,40 @@
+
+
+.caratula{
+width: 100%;
+align-content: center;
+
+img{
+    width: 100%;
+}
+
+
+
+}
+
+.description{
+    width: 100%;
+    display: flex;
+    .figura{
+        width: 45%;
+        img{
+            width: 100%;
+        }
+
+    }
+    .description--text{
+        width: 50%;
+    }
+}
+.caracteristicas{
+    display: flex;
+    align-content: space-around;
+
+    .texto--c{
+        @extend .texto;
+        width: 95%;
+        text-align: center justify;
+    }
+
+
+}
