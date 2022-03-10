@@ -1,0 +1,296 @@
+
+/***************** mobil first ******/
+
+
+
+
+@media only screen and (max-width:600px){/*-------------------------vista movil-------------------*/
+    /********** bbarra de navegacion *****/
+    .header__barraPrin{
+        display: none;
+        img{
+            width: 12rem;
+        }
+    }
+
+    
+    .main__textContent {
+
+        h2{
+            position: absolute;
+            top: 38vw;
+            left: 10%;
+            font-size: 20px;
+
+        }
+        h3{
+        position: absolute;
+        top: 45vw;
+        left: 10%;
+        font-size: 1rem;   
+        }
+
+
+    }
+
+
+    .bg-light {
+        li{
+            a{
+                transition: 1.5s ease;
+               -moz-transition: 1.5s ease; /* Firefox */
+               -webkit-transition: 1.5s ease; /* Chrome - Safari */
+               -o-transition: 1.5s ease; /* Opera */
+                &:hover{
+                background: rgb(58, 2, 2);
+                transform : scale(1);
+                -moz-transform : scale(1); /* Firefox */
+                -webkit-transform : scale(1); /* Chrome - Safari */
+                -o-transform : scale(1); /* Opera */
+                -ms-transform : scale(1); /* IE9 */
+            }
+
+            } 
+        }
+    }
+  
+    .container-fluid--Cp{
+      button{
+        width: 100px;
+        border-color: $amarilloobscuro;
+      }
+    }
+
+
+      
+    
+    /**************   main **********************/
+    main{
+        width: 100%;
+        margin: 0;
+    }
+    .main__contenedor{
+
+        width: 100%;
+
+        .imagenprincipal{
+            img{
+                display: flex;
+                width: 100%;
+            }
+          
+
+        }
+    } 
+    
+
+    .titles{
+   
+      padding: 0.5rem;
+      width: 100%;
+      
+      h2{
+        
+        text-align: center;
+      }
+      
+    }
+    
+     
+        
+        
+      
+    
+    .container__figure{
+      align-content: center;
+      display: flex;
+
+      
+      figure{
+        img{
+            width: 100%; 
+            margin: 5px;
+        }
+        
+      }
+    }
+    .container{
+      display: flex;
+      width: 100%;
+      .row {
+      
+      align-content: center;
+      width: 95%;
+      margin: 5px;;
+      
+      .rowcontainer__parrafos{
+      text-align: justify;
+      width: 100%;
+      p{
+        text-align: justify;
+        width: 100%;
+      }
+
+    }
+    img{
+      width: 90vw;
+    }
+    
+
+    }
+    }
+
+    .contact_fin{
+      display: inline-flex;
+    }
+    .contenido{
+      display: inline;
+      .contenedora,.contenedorb{
+        width: 90%;
+
+      }
+    }
+
+    .texto{
+      width: 90%;
+    }
+    /***-----------------MAPA-----------------****/
+    
+    .mapa{
+      width: 100%;
+      iframe{
+        width: 100%;
+      }
+    }
+
+
+  /******   pie de pagina ***/
+    footer{
+      position: static;
+      width: 100%;
+      height: auto;
+      .content{
+        .box{
+          width: 100%;
+          margin-top: 30px;
+        }
+        .middle{
+          padding-left: 0;
+        }
+
+      }
+    }
+    /***                nosotros     *****/
+
+    .description{
+      display: inline;
+      align-content: center;
+      .figura{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+
+    }
+    .description--text{
+        width: 100%;
+    }
+    }
+
+    .caracteristicas{
+      display: inline;
+    }
+   
+    .containerContactus{
+      width: 300px;
+    }
+
+.formulario{
+  width: 400px;
+  .contact_form{
+  width: 400px;
+}
+}
+
+input{
+  width: 350px;
+}
+
+textarea{
+  width: 350px;
+}
+button{
+  width: 250px;
+}
+
+.barraInicio{
+  display: none;
+}
+
+
+
+
+  }
+/************************ vista tableta ************/
+
+    @media only screen and (min-width:601px) and (max-width:850px){
+      .main__textContent{
+        h2{
+          position: absolute;
+          top: 30vw;
+          left: 10%;
+          font-size: 40px;
+
+
+        }
+        h3{
+          position: absolute;
+          top: 35vw;
+          left: 10%;
+          font-size: 30px;
+
+        }
+
+
+      }
+
+
+
+
+
+    .row {
+      display: flex;
+      width: 100%;
+      img{
+        width: 94vw;
+        align-content: center;
+        margin: 1rem;
+      }
+    }
+  
+      footer .content .box{
+        width: 50%;
+      }
+      .content .right{
+        margin-top: 40px;
+      }
+      .containerContactus{
+        width: 100%;
+       display: inline;
+
+    }
+    }
+  
+
+    @media ( min-width:1024px){
+      .container{
+        display: inline;
+        position:static;
+        width: 90%;
+        text-align: center;
+        margin: 2rem;
+      }
+      .col{
+        display: inline;
+      }
+    }

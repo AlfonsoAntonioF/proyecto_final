@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+@import "variables","navbar";
+@import "footer";
+@import "main";
+@import "index";
+@import "nosotros";
+@import "servicioscontables";
+@import "serviciosfinancieros";
+@import "contactanos";
+@import "responsive";
